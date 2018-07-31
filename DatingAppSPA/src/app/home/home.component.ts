@@ -16,8 +16,8 @@ export class HomeComponent implements OnInit {
   }
 
   registerToggel() {
-    this.registerMode = true;
-  }
+    this.registerMode = true;  }
+
 
   cancelRegisterMode(registerMode: boolean) {
     this.registerMode = registerMode;
